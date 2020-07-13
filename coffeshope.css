@@ -1,0 +1,167 @@
+h2{
+	color: yellow;
+}
+
+
+.div1{
+	background-color: green;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+
+	/*higher z index value should be given priority*/
+	z-index: 1;
+
+}
+.div2{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	position: absolute;	
+	z-index: 2;
+}
+
+
+.first-div{
+	padding: 15px;
+	background-color: yellow;
+	 border:2px solid red;
+	 border-radius: 5px;
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.container{
+	height: 200px;
+	border:2px solid red;
+}
+.child1{
+	border:2px solid blue;
+	height: 40px;
+	width: 70px;
+	left: 41px;
+	top: 20px;
+	position: relative;
+}
+.child2{
+	border:2px solid blue;
+	height: 40px;
+	width: 70px;
+	left: 20px;
+	position: relative;
+	top: 40px;
+
+}
+
+
+
+
+
+
+.pp{
+	border:2px dotted red;
+	/*
+	can aslo use 
+	border-width:2px;
+	border-color:red;
+	border-style:solid;
+
+	*/
+	
+	}
+.c1{
+	color: red;
+}
+.c2{
+	background-color: pink;
+	border:6px  green;
+	border-bottom-style: dotted;
+	border-bottom-color:blue;
+	font-size: 17px;
+	font-style: italic;
+
+}
+#hee{
+	color: cyan;
+}
+
+
+/*table,th,td{
+	border:2px solid black;
+}*/
+
+.pricing-table{
+	width:100%;
+	text-align-last: center;
+	border:2px solid green;
+	font-family: "Arial Black",Gadget,sans-serif;
+
+}
+.caption-headinng{
+	color:cyan;
+
+}
+th{
+	background-color:#32a87d;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+td{
+	height: 50px;
+	color: brown;
+	font-size: 20px;
+
+}
+.ccc1:hover{
+	background-color:#ccffc6; 
+}
+.ccc2:hover{
+	background-color: #ffcccc;
+}
+
+.footer{
+	background-color: #272727;
+	color: white;
+	height: 60px;
+	width: 100%;
+	font-size: 20px;
+	text-align-last: center;
+	position: fixed;
+	
+	bottom: 20px;
+}
+[href]{
+	color: brown;
+}
+
+/*use this given below method to style the indivisual link*/
+/*[href="https://mail.google.com/mail/u/0/#search/LENIN/FMfcgxwHNgfsThNqMpJzmBNJPmGhCksq"]{
+	color: red;
+}*/
+
+/*grouping selector*/
+/*h1,div{
+	color: red;
+}*/
+
+
+.wwww span{
+	background-color: cyan;
+}
+
+.sticky{
+	height: 100px;
+	background-color: #aaccee;
+	
+	top: 10px;
+	
+
+}
+
+
+img{
+	height: 100px;
+	float: left;
+}
